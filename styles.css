@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
-
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');@font-face {
+    font-family: "Booter - Zero Zero";
+    src: 
+    url(./Fonts/booter-zero-zero/BOOTERFF.ttf) format("woff"),
+    url(Fonts/booter-zero-zero/BOOTERZF.ttf) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
 /* todo min 49 https://www.youtube.com/watch?v=kMT54MPz9oE&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&start_radio=1&t=366s*/
 
 * {
@@ -54,4 +61,37 @@ nav ul{
     /* Que se estire o achique dependiendo del tamaño de la pantalla */
     background-size: cover;
     padding-bottom: 3rem;
+}
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+.band-name-large{
+    font-size: 8em;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 85%; /*En el tutorial usan 900px*/
+    margin: 0 auto;
+    padding: 0 1.5em ; /*0 top and bottom // 1.5em left and right*/
+}
+.section-header{
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%; 
 }
