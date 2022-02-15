@@ -6,75 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer website con Html y Css</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
                 <li> <a href="index.html">HOME</a></li>
                 <li><a href="store.html">STORE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
-        <hr>
-        <h1>LA CAMPAÑA DE DOV</h1>
-        <button>Resto de Jugadores</button>
-        <br>
-        <br>
-        <!-- TODO: find a suitable background image -->
-        <button>Playlist &#9658;</button>
+        <h1 class="band-name band-name-large">LA CAMPAÑA DE DOV</h1>
+        <div class="container">
+
+            <button class="btn btn-header" type="button">Resto de Jugadores</button>
+        </div>
+        <button class="btn btn-header btn-play" type="button">&#9658;</button>
     </header>
-    <section>
-        <h2>Jugadores</h2>
+    <section class="content-section container">
+        <h2 class="section-header">Jugadores</h2>
         <div>
-            <div>
-                <strong>Druida</strong>
-                &lt;&gt;
-                <span>Druid</span>
-                &lt;&gt;
-                <span>Facunchos</span>
-                &lt;&gt;
-                <button type="button">Ver personaje</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">Date</span>
+                <span class="tour-item tour-city">City</span>
+                <span class="tour-item tour-arena">Facunchos</span>
+                <button class="btn tour-item tour-btn" type="button">BUY TICKETS</button>
             </div>
-            <div>
-                <strong>Fighter</strong>
-                &lt;&gt;
-                <span>Bocadito</span>
-                &lt;&gt;
-                <span>nombreJugador</span>
-                &lt;&gt;
-                <button type="button">Ver personaje</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">Fighter</span>
+              
+                <span class="tour-item tour-city">Bocadito</span>
+          
+                <span class="tour-item tour-arena">nombreJugador</span>
+           
+                <button class="btn tour-item tour-btn" type="button">Ver personaje</button>
             </div>
-            <div>
-                <strong>Clerigo?</strong>
-                &lt;&gt;
-                <span>UG</span>
-                &lt;&gt;
-                <span>nombreJugador</span>
-                &lt;&gt;
-                <button type="button">Ver personaje</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">Clerigo?</span>
+                <span class="tour-item tour-city">UG</span>
+                <span class="tour-item tour-arena">nombreJugador</span>
+                <button class="btn tour-item tour-btn" type="button">Ver personaje</button>
             </div>
-            <div>
-                <strong>Sorcerer</strong>
-                &lt;&gt;
-                <span>Grimjou</span>
-                &lt;&gt;
-                <span>nombreJugador</span>
-                &lt;&gt;
-                <button type="button">Ver personaje</button>
-                <hr>
+            <div class="tour-row">
+                <span class="tour-item tour-date">Sorcerer</span>
+                <span class="tour-item tour-city">Grimjou</span>
+                <span class="tour-item tour-arena">nombreJugador</span>
+                <button class="btn tour-item tour-btn" type="button">Ver personaje</button>
             </div>
-            <div>
-                <strong>Druida</strong>
-                &lt;&gt;
-                <span>???</span>
-                &lt;&gt;
-                <span>nombreJugador</span>
-                &lt;&gt;
-                <button type="button">Ver personaje</button>
+            <div class="tour-row">
+                <span class="tour-item tour-date">Druida</span>
+                <span class="tour-item tour-city">???</span>
+                <span class="tour-item tour-arena">nombreJugador</span>
+                <button class="btn tour-item tour-btn" type="button">Ver personaje</button>
             </div>
         </div>
     </section>
