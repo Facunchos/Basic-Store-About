@@ -223,6 +223,10 @@ nav ul{
 .shop-item-image {
     height: 250px;
     width: auto;
+    transition: transform .2s;
+}
+.shop-item-image:hover {
+    transform: scale(1.5);
 }
 
 .shop-item-details {
