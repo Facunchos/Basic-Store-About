@@ -6,64 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer website con Html y Css</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
             <ul>
                 <li> <a href="index.html">HOME</a></li>
                 <li><a href="store.html">STORE</a></li>
                 <li><a href="about.html">ABOUT</a></li>
             </ul>
         </nav>
-        <hr>
-        <h1>STORE</h1>
+        <h1 class="band-name band-name-large">STORE</h1>
     </header>
-    <section>
-        <h2>MUSIC</h2>
-        <div>
-            <div>
-                <strong>Album 1</strong>
+    <section class="container content-section">
+        <h2 class="section-header">MUSIC</h2>
+            <div class="shop-items">
+                <div class="shop-item">            
+                    <span class="shop-item-title">Album 1</span>
+                    <img class="shop-item-image" src="/ProyectoHtmlYCss/imgs/imageBlackCat.png" alt="Image1" width="400">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 2</span>
+                    <img class="shop-item-image"  src="imgs/imageEmoji.png" alt="Image2" width="400">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$13.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 3</span>
+                    <img class="shop-item-image"  src="imgs/imageGreen.jpg" alt="Image3" width="400">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>  
+                <div class="shop-item">
+                    <span class="shop-item-title">Album 4</span>
+                    <img class="shop-item-image"  src="imgs/imageTripping.jpg" alt="Image4" width="400">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$25.99</span>
+                        <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                    </div>
+                </div>
             </div>
-            <img src="/ProyectoHtmlYCss/imgs/imageBlackCat.png" alt="Image1" width="400">
-            <div>
-                <span>$12.99</span>
-                <button role="button">ADD TO CART</button>
-            </div>
-        </div>
-        <h2>MERCH</h2>
-        <div>
-            <div>
-                <strong>Album 2</strong>
-            </div>
-            <img src="imgs/imageEmoji.png" alt="Image2" width="400">
-            <div>
-                <span>$13.99</span>
-                <button role="button">ADD TO CART</button>
-            </div>
-        </div>
-        <h2>MERCH</h2>
-        <div>
-            <div>
-                <strong>Album 3</strong>
-            </div>
-            <img src="imgs/imageGreen.jpg" alt="Image3" width="400">
-            <div>
-                <span>$9.99</span>
-                <button role="button">ADD TO CART</button>
-            </div>
-        </div>   
-        <h2>MERCH</h2>
-        <div>
-            <div>
-                <strong>Album 4</strong>
-            </div>
-            <img src="imgs/imageTripping.jpg" alt="Image4" width="400">
-            <div>
-                <span>$25.99</span>
-                <button role="button">ADD TO CART</button>
-            </div>
-        </div>
     </section>
     <section>
         <h2>CART</h2>
@@ -122,13 +113,15 @@
     <section>
         
     </section>
-    <footer>
-        <h3>Links</h3>
-        <ul>
-            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imgs/discord-logo.svg" alt="discord-logo" width="50"></a></li>
-            <li><a href="https://open.spotify.com/playlist/6OtGBZAR20qQZJ4nqlPHny?si=583dbb0ef4c9462f" target="_blank"><img src="imgs/Spotify-logo green.png" alt="spotify-logo" width="50"></a></li>
-            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imgs/Whatsapp-logo.png" alt="whatsapp-logo-2020" width="50"></a></li>
-        </ul>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">Pirulete</h3>
+            <ul class="nav footer-nav">
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imgs/discord-logo.svg" alt="discord-logo" width="50"></a></li>
+                <li><a href="https://open.spotify.com/playlist/6OtGBZAR20qQZJ4nqlPHny?si=583dbb0ef4c9462f" target="_blank"><img src="imgs/Spotify-logo green.png" alt="spotify-logo" width="50"></a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imgs/Whatsapp-logo.png" alt="whatsapp-logo-2020" width="50"></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

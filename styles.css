@@ -62,6 +62,7 @@ nav ul{
     background-size: cover;
     padding-bottom: 3rem;
 }
+
 .band-name {
     text-align: center;
     margin: 0;
@@ -70,17 +71,21 @@ nav ul{
     font-weight: normal;
     color: white;
 }
+
 .band-name-large{
     font-size: 6em;
 }
+
 .content-section{
     margin: 1em;
 }
+
 .container{
     max-width: 85%; /*En el tutorial usan 900px*/
     margin: 0 auto;
     padding: 0 1.5em ; /*0 top and bottom // 1.5em left and right*/
 }
+
 .section-header{
     font-family: "Metal Mania";
     font-weight: normal;
@@ -88,6 +93,7 @@ nav ul{
     text-align: center;
     font-size: 2.5em;
 }
+
 .about-band-image{
     float: left;
     height: 200px;
@@ -95,19 +101,23 @@ nav ul{
     margin: 15px;
     border-radius: 50%; 
 }
+
 .main-footer {
     background-color: #56ccf2;
     color: white;
     padding: .25em 0 ;    
 }
+
 .main-footer-container {
     display: flex;
     align-items: center;
 }
+
 .main-footer-container ul{
     flex-grow: 1;
     text-align: end;
 }
+
 .footer-nav {
     padding: 0 .5em;
 }
@@ -116,12 +126,14 @@ nav ul{
     width: 30px;
     height: 30px;
 }
+
 .btn {
     text-align: center;
     vertical-align: middle;
     padding: .67em;
     cursor: pointer;
 }
+
 .btn-header {
     margin: .5em 15% 2em 15%;
     color: white;
@@ -133,9 +145,11 @@ nav ul{
     padding-left: 2em;
     padding-right: 2em;
 }
+
 .btn-header:hover {
     background-color: rgba(255, 255, 255, .3);
 }
+
 .btn-play {
     display: block;
     margin: 0 auto;
@@ -146,6 +160,7 @@ nav ul{
     width: 100px;
     height: 100px;
 }
+
 .tour-row{
     border-bottom: 1px solid black;
     padding-bottom: 1em;
@@ -160,17 +175,69 @@ nav ul{
     display: inline-block;
     padding-right: .5em;      
 }
+
 .tour-date {
     color: #555;
     font-weight: bold;
     width: 11%;
 }
+
 .tour-city {
     width: 24%;
 }
+
 .tour-arena {
     width: 42%;
 }
+
 .tour-btn {
     max-width: 19%;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+    width: auto;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
