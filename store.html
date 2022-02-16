@@ -24,7 +24,7 @@
             <div class="shop-items">
                 <div class="shop-item">            
                     <span class="shop-item-title">Album 1</span>
-                    <img class="shop-item-image" src="/ProyectoHtmlYCss/imgs/imageBlackCat.png" alt="Image1" width="400">
+                    <img class="shop-item-image" src="imgs/imageBlackCat.png" alt="Image1" width="400">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
@@ -69,7 +69,7 @@
             </div>
         
             <div class="shop-item">
-                <span class="shop-item-title">T-Shirt Logo</span>
+                <span class="shop-item-title">T-Shirt Character</span>
                 <img class="shop-item-image"  src="imgs/Bocadito PJ Remera PNG.png" alt="FreeCodeCamp T-Shirt" width="400">
                 <div class="shop-item-details">
                     <span class="shop-item-price">$24.99</span>
@@ -88,8 +88,8 @@
             
             
             <div class="shop-item">
-                <span class="shop-item-title">Album 4</span>
-                <img class="shop-item-image"  src="imgs/Victoria remera.jpg" alt="Image4" width="400">
+                <span class="shop-item-title">T-Shirt Custom</span>
+                <img class="shop-item-image"  src="imgs/DOV T-Shirt.png" alt="Image4" width="400">
                 <div class="shop-item-details">
                     <span class="shop-item-price">$49.99</span>
                     <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
@@ -98,66 +98,51 @@
         </div>
         
     </section>
-    <section>
-        <h2>CART</h2>
-        <div>
-            <strong>ITEM</strong>
-            &lt;&gt;
-            <strong>PRINCE</strong>
-            &lt;&gt;
-            <strong>QUANTITY</strong>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
         </div>
-        <div>
-            <img src="/ProyectoHtmlYCss/imgs/imageBlackCat.png" width="100" height="100">
-            <span>T-Shirt</span>
-            &lt;&gt;
-            <span>$12.99</span>
-            &lt;&gt;
-            <input type="number" max="9" min="1" value="1">
-            <button role="button">REMOVE</button>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="/ProyectoHtmlYCss/imgs/imageBlackCat.png" width="100" height="100">
+                    <span class="cart-item-title">T-Shirt</span>
+                </div>
+                <span class="cart-price cart-column">$12.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" max="9" min="1" value="1">
+                    <button class="btn btn-danger" role="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="imgs/imageEmoji.png" width="100" height="100">
+                    <span class="cart-item-title">T-Shirt</span>
+                </div>
+                <span class="cart-price cart-column">$13.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" max="9" min="1" value="1">
+                    <button class="btn btn-danger" role="button">REMOVE</button>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="imgs/imageEmoji.png" width="100" height="100">
-            <span>T-Shirt</span>
-            &lt;&gt;
-            <span>$13.99</span>
-            &lt;&gt;
-            <input type="number" max="9" min="1" value="1">
-            <button role="button">REMOVE</button>
+        <div class="cart-total">
+            <span class="cart-total-title">Total</span>
+            <span class="cart-total-price">$xxx</span>
         </div>
-        <div>
-            <img src="imgs/imageGreen.jpg" width="100" height="100">
-            <span>T-Shirt</span>
-            &lt;&gt;
-            <span>19.99</span>
-            &lt;&gt;
-            <input type="number" max="9" min="1" value="1">
-            <button role="button">REMOVE</button>
-        </div>
-        <div>
-            <img src="imgs/imageTripping.jpg"  width="100" height="100">
-            <span>T-Shirt</span>
-            &lt;&gt;
-            <span>$25.99</span>
-            &lt;&gt;
-            <input type="number" max="9" min="1" value="1">
-            <button role="button">REMOVE</button>
-        </div>
-        <hr>
-        <div>
-            <strong>Total</strong>
-            <span>$xxx</span>
-        </div>
-        <div>
-            <button role="button">PURCHASE</button>
-        </div>
+        
+        <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
+        
     </section>
     <section>
         
     </section>
     <footer class="main-footer">
         <div class="container main-footer-container">
-            <h3 class="band-name">Pirulete</h3>
+            <h3 class="band-name">Facunchos</h3>
             <ul class="nav footer-nav">
                 <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imgs/discord-logo.svg" alt="discord-logo" width="50"></a></li>
                 <li><a href="https://open.spotify.com/playlist/6OtGBZAR20qQZJ4nqlPHny?si=583dbb0ef4c9462f" target="_blank"><img src="imgs/Spotify-logo green.png" alt="spotify-logo" width="50"></a></li>
