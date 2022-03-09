@@ -60,7 +60,7 @@ nav ul{
     background-blend-mode: multiply;
     /* Que se estire o achique dependiendo del tamaño de la pantalla */
     background-size: cover;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .band-name {
@@ -74,6 +74,7 @@ nav ul{
 
 .band-name-large{
     font-size: 6em;
+    justify-content: center;
 }
 
 .content-section{
@@ -132,6 +133,11 @@ nav ul{
     vertical-align: middle;
     padding: .67em;
     cursor: pointer;
+    transition: transform .2s;
+}
+
+.btn:hover {
+    transform: scale(.9);
 }
 
 .btn-header {
@@ -226,7 +232,7 @@ nav ul{
     transition: transform .2s;
 }
 .shop-item-image:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .shop-item-details {
