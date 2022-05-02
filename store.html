@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer website con Html y Css</title>
+    <title>Website</title>
     <link rel="stylesheet" href="styles.css">
     <script src="store.js" async></script>  <!-- El async es para que cargue el resto de la pagina a la vez que el js. Porque sino hasta que no cargue el js no carga el resto de la pagina--> 
+
 </head>
 <body>
     <header class="main-header">
@@ -16,7 +17,7 @@
                 
                 <li> <a href="index.html">HOME</a></li>
                 <li><a href="store.html">STORE</a></li>
-                <li><a href="about.html">ABOUT</a></li>
+                <!-- <li><a href="about.html">ABOUT</a></li> -->
             </ul>
         </nav>
         <h1 class="band-name band-name-large">STORE</h1>
@@ -115,7 +116,7 @@
                 </div>
                 <span class="cart-price cart-column">$12.99</span>
                 <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" max="9" min="1" value="1">
+                    <input class="cart-quantity-input" type="number" max="9" min="1" value="2">
                     <button class="btn btn-danger" role="button">REMOVE</button>
                 </div>
             </div>
@@ -133,7 +134,7 @@
         </div>
         <div class="cart-total">
             <span class="cart-total-title">Total</span>
-            <span class="cart-total-price">$xxx</span>
+            <span class="cart-total-price">$19.45</span>
         </div>
         
         <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
